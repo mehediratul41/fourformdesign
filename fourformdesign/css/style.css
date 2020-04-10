@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+header {
+    background: #000000f2;
+}
+
+
+nav{}
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    padding: 0 3px;
+    color: blue;
+    text-transform: capitalize;
+}
+nav ul li a img {
+    width: 112px;
+    flex-wrap: wrap;
+}
+
+.form-section{
+    padding: 60px 0;
+     background-image: url(../images/logo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    background-blend-mode: saturation;
+  
+    
+    
+}
+.form-box{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+   
+}
+
+h1{
+    font-size: 30px;
+    color: blue;
+}
+p{
+    font-size: 18px;
+}
+
+form{
+    text-align: left;
+    margin-top: 30px;
+}
+input[type="text"],input[type="email"],input[type="password"],input[type="file"]{
+    width: 100%;
+    padding: 5px 15px;
+    border: 2px solid blue;
+    margin-bottom: 15px;
+    color: blue;
+    font-size: 18px;
+}
+input[type="text"]{
+    margin-bottom: 15px;
+}
+label{
+    font-size: 24px;
+    font-style: italic;
+    margin-right: 20px;
+    
+}
+span{}
+
+label b{
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+    font-style: normal;
+}
+
+input[type="submit"]{
+    display: block;
+    padding: 10px 30px;
+    font-size: 18px;
+    background: black;
+    border: 2px solid blue;
+    color:blue;
+    margin-top: 25px;
+    cursor: pointer;
+    
+}
+input[type="submit"]:hover{
+    background: lightblue;
+    
+}
+::placeholder{
+    color: blue;
+}
+::selection{
+    background-color: blue;
+}
